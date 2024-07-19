@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+  <div class="player">
+    <video class="video-area" src="/video/652333414.mp4" ></video>
+    <div class="controls">
+      <div class="progress">
+        <div class="progress-fill"></div>
+      </div>
+      <div class="main-controls">
+        <button class="btn playBtn">▶️</button>
+        <input type="range" name="volume" class="slider" min="0" max="100"  value="3">
+        <input type="range" name="playbackRate" class="slider" min="1" max="3"  value="1">
+        <button class="btn" data-skip="-10">⏪10sec</button>
+        <button class="btn" data-skip="10">⏩10sec</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
